@@ -1,0 +1,35 @@
+
+baseURL = "https://example.com/"
+languageCode = "en-ca"
+title = "Hi there! I'm Afrida. :)"
+theme = "chicago7"
+
+[params]
+  author = "Afrida Hossain"
+
+[[menu.header]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+#[[menu.header]]
+#  name = "About"
+#  url = "/about/"
+#  weight = 2
+
+[[menu.header]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 2
+
+[[menu.header]]
+  name = "Writing"
+  url = "/posts/"
+  weight = 3
+
+[params.social]
+  github = "https://github.com/Afrida-Hossain"
+  linkedIn = "https://www.linkedin.com/in/afrida-h-5114a8185/"
+
+[markup.goldmark.renderer]
+  unsafe = true

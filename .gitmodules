@@ -1,0 +1,6 @@
+[submodule "themes/chicago7"]
+	path = themes/chicago7
+	url = https://github.com/akopdev/hugo-theme-chicago7.git
+[submodule "personal-website/themes/chicago7"]
+	path = personal-website/themes/chicago7
+	url = https://github.com/akopdev/hugo-theme-chicago7.git
